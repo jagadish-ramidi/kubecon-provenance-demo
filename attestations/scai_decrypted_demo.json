@@ -1,0 +1,22 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "subject": [
+    {
+      "name": "https://witness.dev/internal/user:foo.dll",
+      "digest": {
+        "sha256": "63a1d5a7eb95ba65887f6fce341c093914e2692e4e4177d1626733962938a3fc"
+      }
+    }
+  ],
+  "predicateType": "https://in-toto.io/attestation/scai/attribute-report/v0.2",
+  "predicate": {
+    "attributes": [
+      {
+        "attribute": "HasRef",
+        "evidence": {
+          "name":"gitoid:2ef0fe6fda2df148f42d5c2c4724c7ca522cadf0ab36fbdd42d0e0c5510398a4"
+        }
+      }
+    ]
+  }
+}

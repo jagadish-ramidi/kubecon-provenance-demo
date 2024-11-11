@@ -1,0 +1,32 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "subject": [
+    {
+      "name": "https://witness.dev/internal/user:foo.fll",
+      "digest": {
+        "sha256": "3584d00e7baaaf459c7c3151dd2e3c9fa38bdccef8ecff50b796826a8ee8c469"
+      }
+    },
+    {
+      "name": "https://witness.dev/internal/user:foo.fll",
+      "digest": {
+        "sha256": "3584d00e7baaaf459c7c3151dd2e3c9fa38bdccef8ecff50b796826a8ee8c469"
+      }
+    }
+  ],
+  "predicateType": "https://in-toto.io/attestation/reference/v0.1",
+  "predicate": {
+    "attester": {
+      "id": "https://jira.com"
+    },
+    "name": "ideation",
+    "references": [
+      {
+        "digest": {
+          "sha256": "5ac8a070d1eeb864c5daa59779027239e702d73079bda1bd919f39c9e9cee172"
+        },
+        "uri": "https://jira.com/browse/FOO-1925"
+      }
+    ]
+  }
+}

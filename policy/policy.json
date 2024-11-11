@@ -1,0 +1,26 @@
+{
+    "expires": "2024-12-17T23:57:40-05:00",
+    "steps": {
+      "build": {
+        "name": "build",
+        "attestations": [
+          {
+            "type": "https://witness.dev/attestations/command-run/v0.1"
+          }
+        ],
+        "functionaries": [
+          {
+            "publickeyid": "736753da74873bb7006d6bf0ddc4f69e615cbff159949ee609df6104549d2d37"
+          }
+        ]
+      }
+    },
+    "publickeys": {
+      "736753da74873bb7006d6bf0ddc4f69e615cbff159949ee609df6104549d2d37": {
+        "keyid": "736753da74873bb7006d6bf0ddc4f69e615cbff159949ee609df6104549d2d37",
+        "key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUNvd0JRWURLMlZ3QXlFQUFNSUlhVnhlVk1tOGhwa3pKczVucmNPZVVTZWliQnpNdXYySGJPdkhCNFE9Ci0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQo="
+      }
+    }
+  }
+  
+  

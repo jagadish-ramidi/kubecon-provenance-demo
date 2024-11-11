@@ -1,0 +1,18 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "https://in-toto.io/attestation/reference/v0.1",
+  "predicate": {
+    "name": "ideation",
+    "attester": {
+      "id": "https://jira.com"
+    },
+    "references": [
+      {
+        "uri": "https://jira.com/browse/FOO-1925",
+        "digest": {
+          "sha256": "5ac8a070d1eeb864c5daa59779027239e702d73079bda1bd919f39c9e9cee172"
+        }
+      }
+    ]
+  }
+}

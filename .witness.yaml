@@ -1,0 +1,13 @@
+## .witness.yaml
+
+run:
+    signer-file-key-path: testkey1.pem
+    trace: false
+sign:
+    signer-file-key-path: testkey1.pem
+    trace: false
+verify:
+    # attestations:
+    #     - "test-att.json"
+    policy: signed_policy.json
+    publickey: testpub1.pem
